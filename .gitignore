@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Build output (large; rebuild with build_exe.py)
+build/
+build_new/
+dist/
+dist_new/
+*.spec
+.build_tmp/
+.pip_tmp/
+
+# Oracle Instant Client is downloaded separately and is not redistributed here
+oracle_client/
+
+# Local configuration contains database passwords
+config.json
+
+# Local verification artifacts (may contain proprietary SQL / customer data)
+evidence/
+*.bak
+*.log
+
+# Test scratch
+.test_tmp/
+*.tmp
+
+# Editors / OS
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini

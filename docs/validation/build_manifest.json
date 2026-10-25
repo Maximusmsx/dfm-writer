@@ -1,0 +1,20 @@
+{
+  "exe": "dist/数据直写DFM.exe",
+  "bytes": 114567937,
+  "sha256": "7843638434447447a2b78779209f9079d2bf2089fbe3d18506fdb50697ea5667",
+  "embedded_client_files": [
+    "oracle_client/BASIC_LICENSE",
+    "oracle_client/BASIC_README",
+    "oracle_client/concrt140.dll",
+    "oracle_client/msvcp140.dll",
+    "oracle_client/oci.dll",
+    "oracle_client/orannzsbb19.dll",
+    "oracle_client/oraociei19.dll",
+    "oracle_client/oraons.dll",
+    "oracle_client/vcruntime140.dll",
+    "oracle_client/vcruntime140_1.dll"
+  ],
+  "has_qt_windows_plugin": true,
+  "contains_user_config": false,
+  "target_formats": ["Delphi 7", "Delphi 5"]
+}

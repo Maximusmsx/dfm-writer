@@ -1,0 +1,16 @@
+{
+  "7": {
+    "status": "passed",
+    "rows": 13,
+    "bytes": 1180,
+    "bom": false,
+    "generated_text": "ASCII Unicode escapes"
+  },
+  "5": {
+    "status": "passed",
+    "rows": 13,
+    "bytes": 882,
+    "bom": false,
+    "generated_text": "ANSI GBK quoted text"
+  }
+}

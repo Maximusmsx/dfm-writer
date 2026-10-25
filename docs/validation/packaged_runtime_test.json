@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "core": "passed",
+  "backup": "passed",
+  "object_count": 2,
+  "legacy_formats": {
+    "7": "passed",
+    "5": "passed"
+  },
+  "ui": "passed",
+  "live": {
+    "identity": "<user>@<database>",
+    "targets": {
+      "7": {
+        "status": "passed",
+        "objects": 7,
+        "progress": [14, 29, 43, 57, 71, 86, 100]
+      },
+      "5": {
+        "status": "passed",
+        "objects": 7,
+        "progress": [14, 29, 43, 57, 71, 86, 100]
+      }
+    },
+    "original_unchanged": true,
+    "status": "passed"
+  },
+  "oracle_client": "19.32.0.0.0",
+  "pyqt": "6.7.0",
+  "driver": "2.2.0"
+}

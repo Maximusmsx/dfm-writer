@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "profile": "live",
+  "identity": "<user>@<database>",
+  "verified": [
+    { "memo": "PackXC_SERVICE_Spec", "source_lines": 265 },
+    { "memo": "PackXC_SERVICE_Body", "source_lines": 5014 },
+    { "memo": "PackTAX_UNTAX_Spec", "source_lines": 41 },
+    { "memo": "PackTAX_UNTAX_Body", "source_lines": 651 },
+    { "memo": "FuncCalcAddValueTax", "source_lines": 303 },
+    { "memo": "FuncCalcTaxPrepare", "source_lines": 988 },
+    { "memo": "FuncGetErrorMsg", "source_lines": 218 }
+  ],
+  "progress": [14, 29, 43, 57, 71, 86, 100],
+  "original_unchanged": true,
+  "result": {
+    "count": 7,
+    "path": "<test-copy>.dfm",
+    "backup": "<test-copy>.dfm.<timestamp>.bak"
+  }
+}
