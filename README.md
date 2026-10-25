@@ -41,9 +41,9 @@ Delphi 窗体里的“SQL 源码”通常保存在 `TMemo.Lines.Strings` 中，�
 
 ### 方式一：运行 EXE
 
-发行版为 Windows x64 单文件 EXE，内含 Oracle Client 19.32 Basic 与 VC 运行库，目标机器无需安装 Python、PyQt 或 Oracle 客户端。把 EXE 放在可写目录中运行即可，`config.json` 会保存在 EXE 同目录。
+构建产物为 Windows x64 单文件 EXE，内含 Oracle Client 19.32 Basic 与 VC 运行库，目标机器无需安装 Python、PyQt 或 Oracle 客户端。把 EXE 放在可写目录中运行即可，`config.json` 会保存在 EXE 同目录。
 
-> 仓库不提交 110 MB 的 EXE 和 Oracle Client 二进制（见 [打包](#打包-exe)）。可自行构建，或在仓库的 Releases 中获取已构建版本。
+> 仓库不提交 110 MB 的 EXE 和 Oracle Client 二进制（见 [打包](#打包-exe)），请按下方步骤自行构建。
 
 ### 方式二：源码运行
 
